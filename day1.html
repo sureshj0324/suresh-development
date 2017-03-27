@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="js/angular-min.js"></script>
+<body ng-app="suresh">
+	<h2>Example 1 : Bind with Model</h2>
+	<div><p>Name : <input type="text" ng-model="name"></p><h1 ng-bind="name"></h1></div><br>
+	<h2>Example 2 : Initialization</h2>
+	<div ng-init="firstName1='John'"><p>The name is <span ng-bind="firstName1"></span></p></div><br>
+	<h2>Example 3 : Expressions</h2>
+	<div>Total : {{ 5 + 5 }}</div><br>
+	<div><label>First Name : </label><input type='text' ng-model = 'firstname2' ><br><br>My name is : {{firstname2}}</div><br>
+</body>
+</html>

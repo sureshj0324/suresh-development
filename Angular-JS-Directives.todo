@@ -1,0 +1,116 @@
+AngularJS Directives :
+
+ng-app : 
+  Defines the root element of an application.
+ng-bind : 
+  Binds the content of an HTML element to application data.
+ng-bind-html : 
+  Binds the innerHTML of an HTML element to application data, and also removes dangerous code from the HTML string.
+ng-bind-template : 
+ Specifies that the text content should be replaced with a template.
+ng-blur : 
+  Specifies a behavior on blur events.
+ng-change : 
+	Specifies an expression to evaluate when content is being changed by the user.
+ng-checked : 
+	Specifies if an element is checked or not.
+ng-class : 
+ Specifies CSS classes on HTML elements.
+ng-class-even : 
+	Same as ng-class, but will only take effect on even rows.
+ng-class-odd : 
+ Same as ng-class, but will only take effect on odd rows.
+ng-click : 
+ Specifies an expression to evaluate when an element is being clicked.
+ng-cloak : 
+ Prevents flickering when your application is being loaded.
+ng-controller : 
+	Defines the controller object for an application.
+ng-copy : 
+ Specifies a behavior on copy events.
+ng-csp : 
+	Changes the content security policy.
+ng-cut : 
+  Specifies a behavior on cut events.
+ng-dblclick : 
+  Specifies a behavior on double-click events.
+ng-disabled : 
+  Specifies if an element is disabled or not.
+ng-focus : 
+ Specifies a behavior on focus events.
+ng-form : 
+  Specifies an HTML form to inherit controls from.
+ng-hide : 
+  Hides or shows HTML elements.
+ng-href : 
+  Specifies a url for the <a> element.
+ng-if : 
+	Removes the HTML element if a condition is false.
+ng-include : 
+ Includes HTML in an application.
+ng-init : 
+  Defines initial values for an application.
+ng-jq : 
+ Specifies that the application must use a library, like jQuery.
+ng-keydown : 
+ Specifies a behavior on keydown events.
+ng-keypress : 
+  Specifies a behavior on keypress events.
+ng-keyup : 
+ Specifies a behavior on keyup events.
+ng-list : 
+  Converts text into a list (array).
+ng-maxlength : 
+ Specifies the maximum number of characters allowed in the input field.
+ng-minlength : 
+ Specifies the minimum number of characters allowed in the input field.
+ng-model : 
+ Binds the value of HTML controls to application data.
+ng-model-options : 
+ Specifies how updates in the model are done.
+ng-mousedown : 
+ Specifies a behavior on mousedown events.
+ng-mouseenter : 
+ Specifies a behavior on mouseenter events.
+ng-mouseleave : 
+ Specifies a behavior on mouseleave events.
+ng-mousemove : 
+ Specifies a behavior on mousemove events.
+ng-mouseover : 
+ Specifies a behavior on mouseover events.
+ng-mouseup : 
+ Specifies a behavior on mouseup events.
+ng-non-bindable : 
+ Specifies that no data binding can happen in this element, or its children.
+ng-open : 
+ Specifies the open attribute of an element.
+ng-options : 
+ Specifies <options> in a <select> list.
+ng-paste : 
+ Specifies a behavior on paste events.
+ng-pluralize : 
+ Specifies a message to display according to en-us localization rules.
+ng-readonly : 
+  Specifies the readonly attribute of an element.
+ng-repeat : 
+ Defines a template for each data in a collection.
+ng-required : 
+  Specifies the required attribute of an element.
+ng-selected : 
+  Specifies the selected attribute of an element.
+ng-show : 
+  Shows or hides HTML elements.
+ng-src : 
+ Specifies the src attribute for the <img> element.
+ng-srcset : 
+ Specifies the srcset attribute for the <img> element.
+ng-style : 
+ Specifies the style attribute for an element.
+ng-submit : 
+ Specifies expressions to run on onsubmit events.
+ng-switch : 
+ Specifies a condition that will be used to show/hide child elements.
+ng-transclude : 
+ Specifies a point to insert transcluded elements.
+ng-value : 
+ Specifies the value of an input element.

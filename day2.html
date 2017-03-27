@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="js/angular-min.js"></script>
+<body>
+	<h2>Example 4 : Contorller : Modules </h2>
+	<div ng-app="suresh" ng-controller="sureshctrl">
+		<div><label>First Name : </label><input type='text' ng-model='firstname' ></div><br>
+		<div><label>Last Name : </label><input type='text' ng-model='lastname' ></div><br>
+		<div><label>My name is : {{ firstname + " " +lastname}}</label></div>
+	</div>
+	<script>
+		var moduleTest = angular.module('suresh',[]);
+		console.log(moduleTest);
+		moduleTest.controller('sureshctrl',function($scope){
+			$scope.firstname='surresh';
+			$scope.lastname='jeyam';
+		});
+	</script>
+</body>
+</html>
